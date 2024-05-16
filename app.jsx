@@ -10,18 +10,7 @@ class Mange extends React.Component{
         }
     }
 
-    // 方法
-    add=()=>{
-        // 增加数据
-        this.state.arr.unshift(4)
-        // 更新状态数据arr的值
-        this.setState({
-            arr:this.state.arr
-        })
-        console.log(this.state.arr);
-    }
-
-
+   
     // 渲染
     render(){
         return(
